@@ -1,0 +1,12 @@
+#informacion-main{
+    background-color: #1A1A1A;
+    height: fit-content;
+}
+
+/* este html es bastante sencillo, aunque el HTML de Informacion hereda tambien la media query de movil definida en STYLE (el css principal) */
+@media only screen and (max-width: 768px) {
+    #informacion-main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
